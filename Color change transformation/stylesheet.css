@@ -17,9 +17,13 @@ button{
     cursor: pointer;
     width: 150px;
     height: 75px;
-    transition: 0.5s ease-in;
+    transition: 2s ease-in;
 
 }
 button:hover{
-    transform:translateY(500px);
+    /* transform:translateY(500px); */
+    transform: rotate(180deg);
+    transform-box: rotate(90deg);
 }
+
+/* just playing with the transformation and animation */

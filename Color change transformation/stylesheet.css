@@ -13,17 +13,21 @@ button{
     border: 0px;
     border-radius:4px ;
     background: rgba(0, 0, 0, 0.3);
-    color: rgba(0, 0, 0, 10);
+    color: black;
+    font-size:20px;
+    font-family:'Rowdies', cursive ;
     cursor: pointer;
     width: 150px;
     height: 75px;
-    transition: 2s ease-in;
+    transition: 1s ease-in-out;
 
 }
-button:hover{
-    /* transform:translateY(500px); */
-    transform: rotate(180deg);
-    transform-box: rotate(90deg);
+#NO:hover{
+    transform:translateX(500px);
+    /* transform: scale(1.02); */
+    /* transform: rotate(180deg); */
+    /* transform-box: rotate(90deg); */
+
 }
 
 /* just playing with the transformation and animation */

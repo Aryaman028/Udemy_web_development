@@ -11,7 +11,10 @@
     <button id="mybutton">
         Change text
     </button>
-
+    <h2 id="text2"> Javascript is </h2>
+    <button id="my2button">
+        Adding text
+    </button>
 
 
     <script>
@@ -19,6 +22,9 @@
             // alert("button is clicked");
             // alert pops up a msg on the top of the screen and the msg is written inside the brackets as a string
             document.getElementById("text").innerHTML="Hello aryman"
+        }
+        document.getElementById("my2button").onclick= function(){
+            document.getElementById("text2").innerHTML=document.getElementById("text2").innerHTML + " awesome"
         }
     </script>
     

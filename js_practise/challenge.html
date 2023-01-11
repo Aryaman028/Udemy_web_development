@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 50px;
+            float: left;
+            display: flex;
+            flex-wrap: none;
+        }
+        #redcolor{
+            background-color: red;
+        }
+        #yellowcolor{
+            background-color: yellow;
+        }
+        #blackcolor{
+            background-color: black;
+        }
+        #greencolor{
+            background-color: green;
+        }
+        #pinkcolor{
+            background-color: pink;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="redcolor" class="color"></div>
+    <div id="yellowcolor" class="color"></div>
+    <div id="blackcolor" class="color"></div>
+    <div id="greencolor" class="color"></div>
+    <div id="pinkcolor" class="color"></div>
+
+
+
+    <script>
+        document.getElementById("redcolor").onclick = function() {
+            document.getElementById("redcolor").style.display = "none"
+        }
+        document.getElementById("blackcolor").onclick = function() {
+            document.getElementById("blackcolor").style.display = "none"
+        }
+        document.getElementById("yellowcolor").onclick = function() {
+            document.getElementById("yellowcolor").style.display = "none"
+        }
+    </script>
+    
+    
+</body>
+</html>

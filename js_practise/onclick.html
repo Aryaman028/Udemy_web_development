@@ -22,7 +22,11 @@
     </button>
 
 
+
     <script>
+        document.getElementById("my2button").onclick= function(){
+            document.getElementById("text2").innerHTML=document.getElementById("text2").innerHTML + " awesome"
+        }
         document.getElementById("mybutton").onclick= function(){
             // alert("button is clicked");
             // alert pops up a msg on the top of the screen and the msg is written inside the brackets as a string
@@ -31,8 +35,16 @@
         document.getElementById("my2button").onclick= function(){
             document.getElementById("text2").innerHTML=document.getElementById("text2").innerHTML + " awesome"
         }
+
+
         document.getElementById("color").onclick = function(){
             document.getElementById("colorchanging").style.color= "cyan"
+        }
+
+        document.getElementById("mybutton").onclick= function(){
+            // alert("button is clicked");
+            // alert pops up a msg on the top of the screen and the msg is written inside the brackets as a string
+            document.getElementById("text").innerHTML="Hello aryman"
         }
     </script>
     

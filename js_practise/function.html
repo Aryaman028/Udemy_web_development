@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+
+</head>
+<body>
+    First number--<input type="text" id="text1">
+    <br>
+    Second number--<input type="text" id="text2">
+    <br>
+    Operater to be used--<input type="text" name="" id="operater">
+    <br>
+    <button id="mybutton">Calculate</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="answer"></p>
+
+
+
+    <script>
+        document.getElementById("mybutton").onclick = function() {
+
+            function add(a,b){
+                return (a + b)
+            }
+            function sub(a,b){
+                return (a-b)
+            }
+            var str = ""
+            let x = document.getElementById("text1").value
+            let y = document.getElementById("text2").value
+            let z = document.getElementById("operater").value
+            if  (z=="+"){
+                document.getElementById("answer").innerHTML =  "Your answer is " + add(x,y)
+
+            }
+            if  (z=="-"){
+                document.getElementById("answer").innerHTML =  "Your answer is " + sub(x,y)
+
+            }
+
+
+
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

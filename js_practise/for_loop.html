@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loop</title>
+
+</head>
+<body>
+    <p>Hello this is the starting of page</p>
+    <p id="text"></p>
+    <!-- <button id="mybutton">Add elements</button> -->
+
+
+
+    <script>
+        
+        var string = "";
+        var myArray = ["aryaman","aryaa","man","sid"];
+        for (var i = 0 ; i < myArray.length; i++){
+            string = string +  myArray[i] + "<br>";
+
+            
+        }
+        document.getElementById("text").innerHTML =  string;
+        
+    </script>
+</body>
+</html>

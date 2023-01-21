@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate</title>
+    <style>
+        body{
+            display: flex;
+            
+            flex-direction: column;
+            width: 200px;
+
+        }
+
+    </style>
+</head>
+<body>
+    Name : <input type="text" id="name">
+    Number : <input type="number" id="number">
+    Email : <input type="email" id="email">
+    Password : <input type="password" id="pasword">
+    <button id="input" onclick="check()">
+        Submit
+    </button>
+    
+
+    <script>
+        
+        
+        function check(){
+            var name = document.getElementById("name").value;
+            var number = document.getElementById("number").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("pasword").value; 
+            if (name == ""){
+                alert("First enter your name")
+            }
+            if (number == ""){
+                alert("First enter your number")
+            }
+            else{
+                if (number.length < 10){
+                    alert("Pls input appropriate 10 digit number")
+                }
+            }
+            if (email == ""){
+                alert("First enter your email")   
+            }
+            if (password == ""){
+                alert("First enter your password")
+            }
+        }
+        
+
+
+
+
+    </script>
+</body>
+</html>

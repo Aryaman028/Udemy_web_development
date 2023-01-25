@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number</title>
+</head>
+<body>
+    <script>
+        let v = prompt("Enter range")
+        for (let i = 1 ; i<=v ; i++){
+            var f = 0
+            var m = 0
+            for (let j = 1 ; j <= i ; j++){
+                if (i % j == 0){
+                    f++
+                }
+            }
+            if (f == 2){
+                console.log(i)
+            }
+        }
+        
+
+    </script>
+    
+</body>
+</html>

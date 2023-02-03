@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    background-color: antiquewhite;
+}
+button{
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    color: black;
+}
+h2{
+    position: relative;
+    left:150px;
+    font-size: 30px;
+}
+#data{
+    border: 1px solid black;
+    width: 410px;
+    height: 60px;
+    background-color: white;
+    font-size: large;
+    
+}
